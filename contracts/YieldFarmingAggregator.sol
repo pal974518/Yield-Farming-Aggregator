@@ -1,5 +1,5 @@
 /** yield Farming Aggregator **///
-/////
+////
 pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -354,5 +354,6 @@ contract YieldFarmingAggregator is Ownable, ReentrancyGuard, Pausable {
         return (strategy.poolIds, strategy.allocations, strategy.isActive);
     }
 }
+
 
 
